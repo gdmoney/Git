@@ -3,7 +3,7 @@
 git version
 git init
 
-git clone https://github.com/Davitiani/network-automation-github-actions.git
+git clone https://github.com/gdmoney/Docker.git
 
 git show
 git status
@@ -16,7 +16,7 @@ git push
 git add FILENAME
 
 // discard changes in working directory
-git restore <FILENAME>
+git restore FILENAME
 
 // undo the change made in the last commit
 git revert HEAD
@@ -48,7 +48,7 @@ git push origin --force --all
 ```
 gh auth login
 
-gh repo clone gdmoney/network-automation-github-actions
+gh repo clone gdmoney/Docker
 
 gh config set git_protocol SSH or HTTPS
 gh config get git_protocol
