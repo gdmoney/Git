@@ -18,7 +18,7 @@ git add FILENAME
 // discard changes in working directory
 git restore FILENAME
 
-// undo the change made in the last commit
+// undo changes made in the last commit
 git revert HEAD
 git push
 
