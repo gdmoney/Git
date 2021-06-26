@@ -32,7 +32,7 @@ git config --global credential.helper cache
 git config --global credential.helper 'cache --timeout=28800'
 
 // change local repo name after changing it on GH
-git remove -v
+git remote -v
 git remote set-url origin https://github.com/gdmoney/NEW-NAME
 git remote -v
 git pull
