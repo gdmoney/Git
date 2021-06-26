@@ -1,4 +1,4 @@
-## Git CLI
+### Git CLI
 ```
 git version
 git init
@@ -44,7 +44,7 @@ git filter-branch --force --index-filter \
 git push origin --force --all
 ```
 
-## GitHub CLI
+### GitHub CLI
 ```
 gh auth login
 
