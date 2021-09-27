@@ -53,6 +53,7 @@ gh repo clone gdmoney/Git
 gh config set git_protocol SSH or HTTPS
 gh config get git_protocol
 
+gh workflow list
 gh workflow run WORKFLOW_NAME.yml
 
 gh run list --workflow=WORKFLOW_NAME.yml
