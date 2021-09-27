@@ -59,3 +59,6 @@ gh run list --workflow=WORKFLOW_NAME.yml
 gh run view
 gh run watch
 ```
+
+uprade on Windows: `choco upgrade gh`
+- run cmd as admin
