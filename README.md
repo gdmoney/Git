@@ -50,7 +50,7 @@ gh auth login
 
 gh repo clone gdmoney/Git
 
-gh config set git_protocol SSH or HTTPS
+gh config set git_protocol [SSH or HTTPS]
 gh config get git_protocol
 
 gh workflow list
