@@ -47,6 +47,7 @@ git push origin --force --all
 ### GitHub CLI
 ```
 gh auth login
+gh auth status
 
 gh repo clone gdmoney/Git
 
