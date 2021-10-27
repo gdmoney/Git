@@ -52,10 +52,10 @@ gh version
 gh auth login
 gh auth status
 
-gh repo clone gdmoney/Git
-
 gh config set git_protocol [SSH or HTTPS]
 gh config get git_protocol
+
+gh repo clone gdmoney/Git
 
 gh workflow list
 gh workflow run WORKFLOW_NAME.yml
