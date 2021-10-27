@@ -1,7 +1,10 @@
 ### Git CLI
 ```
 git version
-git init
+
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+git config --list
 
 git clone https://github.com/gdmoney/Git.git
 
