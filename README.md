@@ -63,7 +63,7 @@ gh run view
 gh run watch
 ```
 
-**Uprade:**
+**Upgrade:**
 - Linux: 
 ```
 sudo apt update
