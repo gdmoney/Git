@@ -64,6 +64,14 @@ gh run watch
 ```
 
 **Uprade:**
-- Linux: `sudo apt upgrade gh`
-- Windows: `choco upgrade gh`
+- Linux: 
+```
+sudo apt update
+sudo apt upgrade gh
+```
+
+- Windows:
   - run cmd as admin
+```
+choco upgrade gh
+```
