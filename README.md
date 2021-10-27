@@ -7,7 +7,7 @@ git config --global user.email <EMAIL>
 
 // store or cache GitHub credentials
 git config --global credential.helper store
-or
+-OR-
 git config --global credential.helper cache
 git config --global credential.helper 'cache --timeout=28800'
 
