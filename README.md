@@ -47,6 +47,8 @@ git push origin --force --all
 
 ### GitHub CLI
 ```
+gh version
+
 gh auth login
 gh auth status
 
