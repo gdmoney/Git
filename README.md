@@ -2,12 +2,12 @@
 ```
 git version
 
-// configure and store GitHub credentials in Git
 git config --global user.name <USERNAME>
 git config --global user.email <EMAIL>
-git config --global credential.helper store
 
-// or cache GitHub credentials in Git
+// store or cache GitHub credentials
+git config --global credential.helper store
+or
 git config --global credential.helper cache
 git config --global credential.helper 'cache --timeout=28800'
 
