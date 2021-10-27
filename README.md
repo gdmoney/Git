@@ -2,8 +2,15 @@
 ```
 git version
 
-git config --global user.name "John Doe"
-git config --global user.email johndoe@example.com
+// configure and store GitHub credentials in Git
+git config --global user.name <USERNAME>
+git config --global user.email <EMAIL>
+git config --global credential.helper store
+
+// or cache GitHub credentials in Git
+git config --global credential.helper cache
+git config --global credential.helper 'cache --timeout=28800'
+
 git config --list
 
 git clone https://github.com/gdmoney/Git.git
@@ -13,26 +20,17 @@ git status
 
 git fetch
 git pull
-git commit -am blahblahblah
+git commit -am <COMMENT>
 git push
 
-git add FILENAME
+git add <FILENAME>
 
 // discard changes in working directory
-git restore FILENAME
+git restore <FILENAME>
 
 // undo changes made in the last commit
 git revert HEAD
 git push
-
-// configure and store GitHub credentials in Git
-git config --global user.name gdmoney
-git config --global user.email george.davitiani@gmail.com
-git config --global credential.helper store
-
-// or cache GitHub credentials in Git
-git config --global credential.helper cache
-git config --global credential.helper 'cache --timeout=28800'
 
 // change local repo name after changing it on GH
 git remote -v
