@@ -1,5 +1,7 @@
 ### Git CLI
 ```
+sudo apt install git-all
+
 git version
 
 git config --global user.name <USERNAME>
